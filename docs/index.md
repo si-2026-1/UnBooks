@@ -38,7 +38,7 @@ O sistema de recomendação será baseado inicialmente em [**KNN (K-Nearest Neig
 
 | Nome | Matrícula |
 |---|---|
-| Adrielly Medeiros Nunes | 24docs/index.md12561 |
+| Adrielly Medeiros Nunes | 241012561 |
 | Camille Stefany da Silva Barbosa | 241004505 |
 | Natalie Santos Tanoff | 241004588 |
 | Rodrigo de Oliveira Rodrigues | 241022432 |
