@@ -2,7 +2,7 @@
 
 ## EP01 — Autenticação e Perfil
 
-Agrupa funcionalidades relacionadas ao acesso do usuário e à criação de um perfil inicial.
+Agrupa funcionalidades relacionadas ao acesso do usuário e à criação e manutenção de um perfil inicial.
 
 Histórias relacionadas:
 
