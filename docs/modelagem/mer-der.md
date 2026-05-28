@@ -1,5 +1,9 @@
 # MER/DER
 
-**Em construção**
+## MER
 
-A modelagem entidade-relacionamento ainda será desenvolvida nas próximas etapas do projeto.
+![Modelo Entidade-Relacionamento](https://si-2026-1.github.io/UnBooks/mer.pdf)
+
+## DER
+
+![Diagrama Entidade-Relacionamento](https://si-2026-1.github.io/UnBooks/der.pdf)
