@@ -55,7 +55,7 @@ Agrupa funcionalidades de interação social básica.
 
 Histórias relacionadas:
 
-- enviar pedido de amizade;
-- aceitar pedido de amizade;
+- seguir;
+- ser seguido;
 - visualizar leituras públicas de amigos;
 - visualizar livros populares da universidade.

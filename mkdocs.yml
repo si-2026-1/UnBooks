@@ -23,7 +23,6 @@ nav:
   - Produto:
       - Épicos: produto/epicos.md
       - Histórias de Usuário: produto/historias-usuario.md
-      - Backlog: produto/backlog.md
   - Modelagem:
       - MER/DER: modelagem/mer-der.md
   - Slides: slides.md

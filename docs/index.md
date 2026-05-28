@@ -34,33 +34,11 @@ O sistema de recomendação será baseado inicialmente em [**KNN (K-Nearest Neig
 
 ---
 
-## Entregas desta etapa
-
-Nesta primeira versão do repositório, foram organizados:
-
-- problema;
-- escopo;
-- stakeholders;
-- requisitos funcionais;
-- requisitos não funcionais;
-- requisitos de restrição;
-- questões éticas relacionadas ao uso de IA;
-- épicos;
-- histórias de usuário;
-- backlog inicial;
-- indicação do MER/DER como em construção;
-- slides no template do professor.
-
-!!! info "Status do projeto"
-    O projeto está na fase de levantamento de requisitos. O MER/DER definitivo será desenvolvido nas próximas etapas.
-
----
-
 ## Integrantes
 
 | Nome | Matrícula |
 |---|---|
-| Adrielly Medeiros Nunes | 241012561 |
+| Adrielly Medeiros Nunes | 24docs/index.md12561 |
 | Camille Stefany da Silva Barbosa | 241004505 |
 | Natalie Santos Tanoff | 241004588 |
 | Rodrigo de Oliveira Rodrigues | 241022432 |
