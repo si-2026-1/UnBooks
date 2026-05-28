@@ -23,6 +23,7 @@ Como estudante, eu quero responder um questionário inicial de preferências, pa
 
 - o sistema deve apresentar perguntas sobre interesses;
 - o sistema deve salvar as respostas;
+- o usuário deve conseguir editar suas preferências;
 - o sistema deve usar as respostas no cálculo inicial de recomendação.
 
 ---
@@ -36,6 +37,7 @@ Como estudante, eu quero registrar livros que já li, para que meu histórico aj
 
 - o sistema deve permitir selecionar um livro;
 - o sistema deve registrar a leitura;
+- o sistema deve impedir registros duplicados;
 - o sistema deve associar a leitura ao usuário.
 
 ---
@@ -43,12 +45,13 @@ Como estudante, eu quero registrar livros que já li, para que meu histórico aj
 ## HU04 — Avaliar livro lido
 
 **Descrição:**  
-Como estudante, eu quero avaliar livros lidos com estrelas, para que o sistema entenda melhor minhas preferências.
+Como estudante, eu quero avaliar livros lidos com estrelas e comentários, para que o sistema entenda melhor minhas preferências.
 
 **Critérios de aceitação:**
 
 - o sistema deve permitir nota de 1 a 5;
 - o sistema deve salvar a avaliação;
+- o sistema deve impedir avaliações duplicadas;
 - o sistema deve atualizar os dados de preferência do usuário.
 
 ---
@@ -75,6 +78,8 @@ Como estudante, eu quero filtrar livros por assunto, idioma e profundidade, para
 
 - o sistema deve permitir filtro por assunto;
 - o sistema deve permitir filtro por idioma;
+- o sistema deve permitir filtro por curso;
+- o sistema deve permitir filtro por disciplina;
 - o sistema deve permitir filtro por nível de profundidade.
 
 ---
