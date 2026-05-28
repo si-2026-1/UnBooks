@@ -23,4 +23,4 @@
 | RNF02 | O sistema deve seguir boas práticas de acessibilidade. |
 | RNF03 | As recomendações devem ser exibidas em tempo aceitável para o usuário. |
 | RNF04 | O sistema deve proteger dados pessoais dos estudantes. |
-| RNF06 | O sistema deve ser organizado para facilitar manutenção pela equipe. |
+| RNF05 | O sistema deve ser organizado para facilitar manutenção pela equipe. |
