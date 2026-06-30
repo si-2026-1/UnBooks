@@ -4,7 +4,7 @@
 
 # EP01 — Autenticação e Perfil
 
-Atualmente envolve login, cadastro de preferências e manutenção do perfil.
+Envolve login, cadastro de preferências e manutenção do perfil.
 
 ## EP01.1 – Autenticação
 
@@ -39,6 +39,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 ---
 
 # EP02 — Leituras e Avaliações
+
+Envolve registros de leituras, avaliações e privacidade.]
 
 ## EP02.1 – Registro de Leitura
 
@@ -83,6 +85,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 # EP03 — Sistema de Recomendação
 
+Envolve recomendações baseadas na movimentação do usuário e comunidade.
+
 ## EP03.1 – Recomendações Personalizadas
 
 **Histórias de usuário**
@@ -126,6 +130,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 # EP04 — Busca e Filtragem
 
+Envolve busca e pesquisa no catálogo disponível.
+
 ## EP04.1 – Busca Simples
 
 **Histórias de usuário**
@@ -167,6 +173,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 ---
 
 # EP05 — Funcionalidades Sociais
+
+Envolve as funcionalidades para interação na comunidade.
 
 ## EP05.1 – Rede de Amigos
 
