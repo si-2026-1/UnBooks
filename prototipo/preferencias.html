@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preferências — UnBooks</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark">UB</span> UnBooks</a>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="explorar.html">Descobrir</a>
+      <a href="amigos.html">Amigos</a>
+      <a href="perfil.html">Perfil</a>
+      <a class="active" href="preferencias.html">Preferências</a>
+      <a href="entrar.html">Entrar</a>
+      <a class="cta" href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="grid grid-main">
+        <form class="card" action="#" data-static-action>
+          <span class="kicker">Questionário inicial</span>
+          <h1 style="font-size:2.4rem; margin:14px 0 8px;">Monte seu perfil de recomendação</h1>
+          <p style="margin-bottom:18px;">Respostas simuladas para alimentar recomendações personalizadas.</p>
+          <div class="form-row">
+            <label>Assuntos de interesse</label>
+            <select multiple size="5"><option selected>Inteligência Artificial</option><option>Banco de Dados</option><option selected>Algoritmos</option><option>Redes</option><option>Literatura</option></select>
+          </div>
+          <div class="form-row">
+            <label>Profundidade desejada</label>
+            <select><option>Introdutório</option><option selected>Intermediário</option><option>Avançado</option></select>
+          </div>
+          <div class="form-row">
+            <label>Objetivo de leitura</label>
+            <textarea>Quero livros para apoiar disciplinas de IA e aprofundar a base em algoritmos.</textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Gerar recomendações</button>
+        </form>
+
+        <aside class="ai-card">
+          <h2>Saída esperada</h2>
+          <p>O sistema usa essas respostas junto com avaliações e histórico para estimar similaridade entre usuários e livros.</p>
+          <div class="preference-list"><span class="tag teal">KNN</span><span class="tag">Avaliações</span><span class="tag warn">Histórico</span><span class="tag">Interesses</span></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>UnBooks</span><span>Questionário inicial de preferências</span></footer>
+  <script src="js/prototype.js"></script>
+</body>
+</html>

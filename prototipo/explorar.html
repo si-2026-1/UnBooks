@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descobrir — UnBooks</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark">UB</span> UnBooks</a>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a class="active" href="explorar.html">Descobrir</a>
+      <a href="amigos.html">Amigos</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="preferencias.html">Preferências</a>
+      <a href="entrar.html">Entrar</a>
+      <a class="cta" href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Catálogo inteligente</span>
+          <h1 style="font-size:clamp(2rem,4vw,3.4rem); margin-top:14px;">Descobrir livros</h1>
+          <p>Filtros pensados para recomendação acadêmica: assunto, idioma, profundidade e afinidade.</p>
+        </div>
+      </div>
+
+      <form class="card" action="#" data-static-action>
+        <div class="filters">
+          <div class="form-row">
+            <label>Busca</label>
+            <input type="text" value="aprendizado de máquina" aria-label="Busca por livro">
+          </div>
+          <div class="form-row">
+            <label>Assunto</label>
+            <select><option>Inteligência Artificial</option><option>Banco de Dados</option><option>Algoritmos</option></select>
+          </div>
+          <div class="form-row">
+            <label>Idioma</label>
+            <select><option>Todos</option><option>Português</option><option>Inglês</option></select>
+          </div>
+          <div class="form-row">
+            <label>Profundidade</label>
+            <select><option>Intermediário</option><option>Introdutório</option><option>Avançado</option></select>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Aplicar simulação</button>
+      </form>
+    </section>
+
+    <section class="section">
+      <div class="grid grid-3">
+        <article class="card book-card">
+          <div class="cover">Deep Learning</div>
+          <div>
+            <h3>Deep Learning</h3>
+            <p>Boa correspondência com preferências de IA e histórico de avaliações.</p>
+            <div class="book-meta"><span class="tag">94% match</span><span class="tag teal">KNN</span><span class="tag warn">Avançado</span></div>
+            <a class="btn btn-soft btn-small" href="livro.html">Abrir</a>
+          </div>
+        </article>
+
+        <article class="card book-card">
+          <div class="cover pink">Data Science</div>
+          <div>
+            <h3>Data Science do Zero</h3>
+            <p>Indicado por proximidade entre usuários que cursam disciplinas similares.</p>
+            <div class="book-meta"><span class="tag">88% match</span><span class="tag teal">Amigos leram</span></div>
+            <a class="btn btn-soft btn-small" href="livro.html">Abrir</a>
+          </div>
+        </article>
+
+        <article class="card book-card">
+          <div class="cover orange">Algoritmos</div>
+          <div>
+            <h3>Algoritmos</h3>
+            <p>Recomendação base para quem marcou programação e estruturas de dados.</p>
+            <div class="book-meta"><span class="tag">81% match</span><span class="tag warn">Base</span></div>
+            <a class="btn btn-soft btn-small" href="livro.html">Abrir</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>UnBooks</span><span>Busca com filtros acadêmicos</span></footer>
+  <script src="js/prototype.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amigos — UnBooks</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark">UB</span> UnBooks</a>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="explorar.html">Descobrir</a>
+      <a class="active" href="amigos.html">Amigos</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="preferencias.html">Preferências</a>
+      <a href="entrar.html">Entrar</a>
+      <a class="cta" href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <span class="kicker">Conexões sociais</span>
+      <h1 style="font-size:clamp(2rem,4vw,3.5rem); margin-top:14px;">Amigos e feed de leituras</h1>
+      <p style="color:var(--muted); max-width:760px; line-height:1.6;">Siga colegas para descobrir leituras públicas e melhorar recomendações sem transformar o sistema em chat ou fórum.</p>
+    </section>
+
+    <section class="section">
+      <div class="grid grid-main">
+        <div class="card">
+          <h2>Feed de amigos</h2>
+          <div class="feed-item"><div class="avatar">AM</div><div><strong>Adrielly favoritou Data Science do Zero.</strong><p>Visível apenas para amigos.</p></div></div>
+          <div class="feed-item"><div class="avatar">CM</div><div><strong>Camille concluiu Introduction to Algorithms.</strong><p>O sistema recomenda livros de complexidade semelhante.</p></div></div>
+          <div class="feed-item"><div class="avatar">WS</div><div><strong>Wilianne avaliou Redes de Computadores.</strong><p>Atividade pública usada na seção “populares na UnB”.</p></div></div>
+        </div>
+
+        <aside class="card">
+          <h2>Sugestões de conexão</h2>
+          <div class="friend-item"><div class="avatar">NS</div><div><strong>Natalie Santos</strong><p>3 interesses em comum</p><button class="btn btn-soft btn-small" data-static-action>Seguir</button></div></div>
+          <div class="friend-item"><div class="avatar">CS</div><div><strong>Camille Stefany</strong><p>Também lê IA e bancos de dados</p><button class="btn btn-soft btn-small" data-static-action>Seguir</button></div></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>UnBooks</span><span>Conexões sociais básicas</span></footer>
+  <script src="js/prototype.js"></script>
+</body>
+</html>

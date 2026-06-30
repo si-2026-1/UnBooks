@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livro — UnBooks</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark">UB</span> UnBooks</a>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="explorar.html">Descobrir</a>
+      <a href="amigos.html">Amigos</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="preferencias.html">Preferências</a>
+      <a href="entrar.html">Entrar</a>
+      <a class="cta" href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="grid grid-main">
+        <article class="card" style="display:grid; grid-template-columns:160px 1fr; gap:22px; align-items:start;">
+          <div class="cover" style="width:160px; height:230px; font-size:1.2rem;">Deep Learning</div>
+          <div>
+            <span class="tag dark">Recomendação explicada</span>
+            <h1 style="font-size:2.4rem; margin:12px 0 8px;">Deep Learning</h1>
+            <p>Ian Goodfellow, Yoshua Bengio e Aaron Courville</p>
+            <div class="book-meta">
+              <span class="tag">94% compatível</span>
+              <span class="tag teal">IA</span>
+              <span class="tag warn">Avançado</span>
+              <span class="tag">Inglês</span>
+            </div>
+            <p style="margin-top:12px;">Este livro aparece porque seu perfil marcou interesse em inteligência artificial, você avaliou bem obras de algoritmos e três amigos registraram leituras próximas.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" data-static-action>Registrar leitura</button>
+              <button class="btn btn-soft" data-static-action>Adicionar aos favoritos</button>
+            </div>
+          </div>
+        </article>
+
+        <aside class="ai-card">
+          <h2>Como a IA chegou aqui?</h2>
+          <p>Simulação de explicação do modelo: usuários e livros semelhantes aumentam a recomendação.</p>
+          <div class="match">
+            <div class="match-row"><div class="match-top"><span>Usuários semelhantes</span><span>91%</span></div><div class="progress"><span style="--w:91%"></span></div></div>
+            <div class="match-row"><div class="match-top"><span>Assunto preferido</span><span>IA</span></div><div class="progress"><span style="--w:86%"></span></div></div>
+            <div class="match-row"><div class="match-top"><span>Popularidade ajustada</span><span>Média</span></div><div class="progress"><span style="--w:55%"></span></div></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid grid-2">
+        <div class="card">
+          <h2>Avaliações</h2>
+          <div class="feed-item"><div class="avatar">NS</div><div><strong>★★★★★ Natalie</strong><p>Livro denso, mas essencial para entender redes neurais.</p></div></div>
+          <div class="feed-item"><div class="avatar">CM</div><div><strong>★★★★☆ Camille</strong><p>Recomendaria para quem já passou por cálculo e algoritmos.</p></div></div>
+        </div>
+        <div class="card privacy-box">
+          <h2>Visibilidade da leitura</h2>
+          <p>Ao registrar a leitura, o estudante escolhe se ela será privada, visível para amigos ou pública no feed.</p>
+          <div class="book-meta"><span class="tag">Privada</span><span class="tag teal">Amigos</span><span class="tag warn">Pública</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>UnBooks</span><span>Detalhe do livro com explicação de recomendação</span></footer>
+  <script src="js/prototype.js"></script>
+</body>
+</html>

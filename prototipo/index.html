@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UnBooks — Recomendações para estudantes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html"><span class="logo-mark">UB</span> UnBooks</a>
+    <nav class="nav">
+      <a class="active" href="index.html">Início</a>
+      <a href="explorar.html">Descobrir</a>
+      <a href="amigos.html">Amigos</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="preferencias.html">Preferências</a>
+      <a href="entrar.html">Entrar</a>
+      <a class="cta" href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <span class="kicker">IA de recomendação para a BCE</span>
+        <h1>Livros que combinam com seu momento acadêmico.</h1>
+        <p>
+          O UnBooks é um protótipo de rede de leitura para estudantes da UnB. Ele sugere livros com base em preferências, avaliações, histórico de leitura e leitores com perfis semelhantes.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="preferencias.html">Responder questionário</a>
+          <a class="btn btn-soft" href="explorar.html">Explorar recomendações</a>
+        </div>
+      </div>
+
+      <aside class="ai-card">
+        <div class="ai-card-head">
+          <div>
+            <span class="tag dark">KNN preview</span>
+            <h2 style="margin-top:10px;">Por que esses livros?</h2>
+          </div>
+          <span class="ai-chip">IA</span>
+        </div>
+        <p>O protótipo mostra uma explicação simples do motivo da recomendação, sem expor dados sensíveis de outros usuários.</p>
+        <div class="match">
+          <div class="match-row">
+            <div class="match-top"><span>Similaridade com seu perfil</span><span>92%</span></div>
+            <div class="progress"><span style="--w:92%"></span></div>
+          </div>
+          <div class="match-row">
+            <div class="match-top"><span>Amigos também leram</span><span>4</span></div>
+            <div class="progress"><span style="--w:70%"></span></div>
+          </div>
+          <div class="match-row">
+            <div class="match-top"><span>Diversidade de assunto</span><span>Alta</span></div>
+            <div class="progress"><span style="--w:82%"></span></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="prototype-note">Protótipo visual estático — sem backend, banco de dados ou modelo de IA real.</div>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>Recomendados para você</h2>
+          <p>Simulação de recomendações personalizadas com justificativa.</p>
+        </div>
+        <a class="btn btn-ghost" href="explorar.html">Ver todos</a>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card book-card">
+          <div class="cover">Deep Learning</div>
+          <div>
+            <h3>Deep Learning</h3>
+            <p>Recomendado por afinidade com IA, redes neurais e usuários semelhantes.</p>
+            <div class="book-meta"><span class="tag">94% compatível</span><span class="tag teal">Avançado</span></div>
+            <a class="btn btn-soft btn-small" href="livro.html">Ver explicação</a>
+          </div>
+        </article>
+
+        <article class="card book-card">
+          <div class="cover teal">IA Moderna</div>
+          <div>
+            <h3>Inteligência Artificial</h3>
+            <p>Boa escolha para estudantes que avaliaram bem conteúdos de algoritmos.</p>
+            <div class="book-meta"><span class="tag">89% compatível</span><span class="tag warn">Intermediário</span></div>
+            <a class="btn btn-soft btn-small" href="livro.html">Ver explicação</a>
+          </div>
+        </article>
+
+        <article class="card book-card">
+          <div class="cover orange">Algoritmos</div>
+          <div>
+            <h3>Introduction to Algorithms</h3>
+            <p>Aparece porque colegas de disciplinas próximas registraram leitura.</p>
+            <div class="book-meta"><span class="tag">84% compatível</span><span class="tag teal">Base acadêmica</span></div>
+            <a class="btn btn-soft btn-small" href="livro.html">Ver explicação</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid grid-main">
+        <div class="card">
+          <h2>Feed de leituras públicas</h2>
+          <p style="margin-bottom:12px;">Atividades de amigos e estudantes que escolheram compartilhar suas leituras.</p>
+          <div class="feed-item">
+            <div class="avatar">CM</div>
+            <div><strong>Camille marcou Deep Learning como leitura atual.</strong><p>“Começando pelo capítulo de redes neurais convolucionais.”</p></div>
+          </div>
+          <div class="feed-item">
+            <div class="avatar">NS</div>
+            <div><strong>Natalie avaliou Algoritmos com 5 estrelas.</strong><p>Avaliação pública usada apenas de forma agregada no protótipo.</p></div>
+          </div>
+          <div class="feed-item">
+            <div class="avatar">WQ</div>
+            <div><strong>Wilianne adicionou Banco de Dados aos interesses.</strong><p>O sistema sugere livros próximos ao novo interesse.</p></div>
+          </div>
+        </div>
+
+        <aside class="card privacy-box">
+          <h2>Controle de privacidade</h2>
+          <p>O histórico de leitura pode ser privado, visível apenas para amigos ou público. A recomendação deve priorizar dados agregados e explicações simples.</p>
+          <div class="book-meta"><span class="tag teal">Privado por padrão</span><span class="tag">Dados agregados</span></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>UnBooks — Protótipo Front-end</span><span>Recomendação • Amigos • Leituras</span></footer>
+  <script src="js/prototype.js"></script>
+</body>
+</html>
