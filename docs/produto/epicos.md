@@ -40,7 +40,7 @@ Envolve login, cadastro de preferências e manutenção do perfil.
 
 # EP02 — Leituras e Avaliações
 
-Envolve registros de leituras, avaliações e privacidade.]
+Envolve registros de leituras, avaliações e privacidade.
 
 ## EP02.1 – Registro de Leitura
 
