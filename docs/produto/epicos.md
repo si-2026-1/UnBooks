@@ -10,8 +10,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como estudante, quero fazer login com minha matrícula institucional para acessar o sistema.
-* Como usuário, quero recuperar minha senha para voltar a acessar minha conta.
+* Como estudante, quero fazer login com minha matrícula institucional para acessar o sistema;
+* Como usuário, quero recuperar minha senha para voltar a acessar minha conta;
 * Como usuário, quero encerrar minha sessão para proteger meus dados.
 
 ---
@@ -20,9 +20,9 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como novo usuário, quero responder um questionário de interesses para receber recomendações personalizadas.
-* Como usuário, quero selecionar meus gêneros favoritos para melhorar as sugestões de livros.
-* Como usuário, quero informar meus autores favoritos para receber recomendações mais relevantes.
+* Como novo usuário, quero responder um questionário de interesses para receber recomendações personalizadas;
+* Como usuário, quero selecionar meus gêneros favoritos para melhorar as sugestões de livros;
+* Como usuário, quero informar meus autores favoritos para receber recomendações mais relevantes;
 * Como usuário, quero informar meu curso para indicações de leituras futuras.
 
 ---
@@ -31,9 +31,9 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero editar minhas informações pessoais para manter meu perfil atualizado.
-* Como usuário, quero adicionar uma foto de perfil para personalizar minha conta.
-* Como usuário, quero visualizar minhas preferências cadastradas.
+* Como usuário, quero editar minhas informações pessoais para manter meu perfil atualizado;
+* Como usuário, quero adicionar uma foto de perfil para personalizar minha conta;
+* Como usuário, quero visualizar minhas preferências cadastradas;
 * Como usuário, quero editar meu questionário de interesses para atualizar as recomendações personalizadas.
 
 ---
@@ -44,8 +44,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero registrar um livro lido para manter meu histórico.
-* Como usuário, quero informar a data em que terminei uma leitura.
+* Como usuário, quero registrar um livro lido para manter meu histórico;
+* Como usuário, quero informar a data em que terminei uma leitura;
 * Como usuário, quero marcar um livro como "estou lendo".
 
 ---
@@ -54,8 +54,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero dar notas aos materiais lidos.
-* Como usuário, quero escrever uma resenha sobre um livro.
+* Como usuário, quero dar notas aos materiais lidos;
+* Como usuário, quero escrever uma resenha sobre um livro;
 * Como usuário, quero editar minhas avaliações.
 
 ---
@@ -64,8 +64,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero definir se minhas leituras serão públicas ou privadas.
-* Como usuário, quero escolher quem pode ver minhas avaliações.
+* Como usuário, quero definir se minhas leituras serão públicas ou privadas;
+* Como usuário, quero escolher quem pode ver minhas avaliações;
 * Como usuário, quero ocultar determinadas leituras do meu perfil.
 
 ---
@@ -74,9 +74,9 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero criar uma lista de desejos.
-* Como usuário, quero adicionar livros aos favoritos.
-* Como usuário, quero organizar livros em coleções.
+* Como usuário, quero criar uma lista de desejos;
+* Como usuário, quero adicionar livros aos favoritos;
+* Como usuário, quero organizar livros em coleções;
 * Como usuário, quero criar uma lista de leituras do semestre.
 
 ---
@@ -87,9 +87,9 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero receber recomendações com base nas minhas preferências.
-* Como usuário, quero receber recomendações baseadas nas minhas matérias do semestre.
-* Como usuário, quero receber recomendações baseadas nos meus livros lidos.
+* Como usuário, quero receber recomendações com base nas minhas preferências;
+* Como usuário, quero receber recomendações baseadas nas minhas matérias do semestre;
+* Como usuário, quero receber recomendações baseadas nos meus livros lidos;
 * Como usuário, quero receber recomendações atualizadas conforme meu histórico cresce.
 
 ---
@@ -98,8 +98,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero receber livros semelhantes aos que gostei.
-* Como usuário, quero descobrir autores parecidos com meus favoritos.
+* Como usuário, quero receber livros semelhantes aos que gostei;
+* Como usuário, quero descobrir autores parecidos com meus favoritos;
 * Como usuário, quero receber livros de assuntos semelhantes aos meus livros lidos.
 
 ---
@@ -108,8 +108,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero informar se gostei de uma recomendação.
-* Como usuário, quero ocultar recomendações que não me interessam.
+* Como usuário, quero informar se gostei de uma recomendação;
+* Como usuário, quero ocultar recomendações que não me interessam;
 * Como usuário, quero entender por que determinado livro foi recomendado.
 
 ---
@@ -118,8 +118,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero receber recomendações de livros populares na universidade.
-* Como usuário, quero ver os livros mais bem avaliados.
+* Como usuário, quero receber recomendações de livros populares na universidade;
+* Como usuário, quero ver os livros mais bem avaliados;
 * Como usuário, quero receber recomendações dos livros populares das matérias do meu curso.
 
 ---
@@ -130,8 +130,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero buscar livros pelo título.
-* Como usuário, quero buscar livros pelo nome do autor.
+* Como usuário, quero buscar livros pelo título;
+* Como usuário, quero buscar livros pelo nome do autor;
 * Como usuário, quero buscar livros pelo ISBN.
 
 ---
@@ -140,9 +140,9 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero filtrar livros por assunto.
-* Como usuário, quero filtrar livros por idioma.
-* Como usuário, quero filtrar livros por nível de profundidade.
+* Como usuário, quero filtrar livros por assunto;
+* Como usuário, quero filtrar livros por idioma;
+* Como usuário, quero filtrar livros por nível de profundidade;
 * Como usuário, quero combinar vários filtros.
 
 ---
@@ -151,8 +151,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero visualizar a sinopse de um livro.
-* Como usuário, quero ver informações bibliográficas.
+* Como usuário, quero visualizar a sinopse de um livro;
+* Como usuário, quero ver informações bibliográficas;
 * Como usuário, quero visualizar livros relacionados.
 
 ---
@@ -161,8 +161,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero verificar se um livro está disponível na BCE.
-* Como usuário, quero verificar se um livro está disponível na BCE digital.
+* Como usuário, quero verificar se um livro está disponível na BCE;
+* Como usuário, quero verificar se um livro está disponível na BCE digital;
 
 ---
 
@@ -172,9 +172,9 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero me conectar com amigos.
-* Como usuário, quero seguir outros leitores.
-* Como usuário, quero deixar de seguir um usuário.
+* Como usuário, quero me conectar com amigos;
+* Como usuário, quero seguir outros leitores;
+* Como usuário, quero deixar de seguir um usuário;
 * Como usuário, quero visualizar minha lista de seguidores.
 
 ---
@@ -183,8 +183,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero visualizar as leituras públicas de amigos.
-* Como usuário, quero compartilhar minhas avaliações.
+* Como usuário, quero visualizar as leituras públicas de amigos;
+* Como usuário, quero compartilhar minhas avaliações;
 * Como usuário, quero recomendar um livro a outro usuário.
 
 ---
@@ -193,8 +193,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero curtir avaliações de outros leitores.
-* Como usuário, quero comentar em avaliações.
+* Como usuário, quero curtir avaliações de outros leitores;
+* Como usuário, quero comentar em avaliações;
 * Como usuário, quero responder comentários.
 
 ---
@@ -203,8 +203,8 @@ Atualmente envolve login, cadastro de preferências e manutenção do perfil.
 
 **Histórias de usuário**
 
-* Como usuário, quero visualizar os livros mais populares da minha lista de amigos.
-* Como usuário, quero ver rankings de leitores.
+* Como usuário, quero visualizar os livros mais populares da minha lista de amigos;
+* Como usuário, quero ver rankings de leitores;
 * Como usuário, quero visualizar tendências de leitura da comunidade.
 
 ---
